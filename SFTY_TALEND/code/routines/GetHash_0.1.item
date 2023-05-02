@@ -1,0 +1,31 @@
+package routines;
+import java.security.*;
+
+public class GetHash {
+
+    public static String getMD5(String strCode) {
+
+        java.security.MessageDigest msg;
+
+        String digest1 = "";
+
+        try {
+
+            msg = java.security.MessageDigest.getInstance("SHA-256");
+            msg.update(strCode.getBytes(), 0, strCode.length());
+
+            digest1 = new java.math.BigInteger(1, msg.digest()).toString(32);
+
+        }
+
+        catch (NoSuchAlgorithmException e) {
+// TODO Auto-generated catch block
+
+            e.printStackTrace();
+
+        }
+return digest1.toUpperCase();
+
+    }
+
+}

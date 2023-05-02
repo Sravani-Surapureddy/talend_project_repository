@@ -1,1 +1,20 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_0suCoONDEe2UO734KNkw2Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_nGbuION6Ee2UO734KNkw2Q",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "GetHash",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_nGbuION6Ee2UO734KNkw2Q - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
